@@ -1,0 +1,26 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+{% extends 'layout/base.html' %}
+
+{% block head %}
+    <title>HELLO</title>
+{% endblock %}
+<!-- </head> -->
+
+{% block body %}
+<!-- <body> -->
+    <div style="text-align: center">
+        {% if name %}
+            <h2>Hello, {{ name }}!</h2>
+        {% else %}
+            <h2>Hello, world!</h2>
+        {% endif %}
+            <img src="/static/image/hello_world.png" width=15%>
+        </div>
+    {% include 'hello_template.html' %}
+{% endblock %}
+<!-- </body> -->
+<!-- </html> -->

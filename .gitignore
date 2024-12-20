@@ -1,0 +1,36 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.env/
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# MacOS-specific
+.DS_Store
+
+# Linux-specific
+*~
+
+# Windows-specific
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Test coverage directory
+.coverage
+*.coveragerc
+
+# Flask related
+instance/
+.pytest_cache/

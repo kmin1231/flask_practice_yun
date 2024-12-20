@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "yun"
+version = "0.1.0"
+description = ""
+authors = ["kmin1231 <kmin91143@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.1.0"
+flask-script = "^2.0.6"
+flask-migrate = "^4.0.7"
+watchdog = "^6.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
