@@ -11,6 +11,11 @@ flask = "^3.1.0"
 flask-script = "^2.0.6"
 flask-migrate = "^4.0.7"
 watchdog = "^6.0.0"
+pymongo = "^4.10.1"
+redis = "^5.2.1"
+unittest2 = "^1.1.0"
+requests = "^2.32.3"
+mongoengine = "^0.29.1"
 
 
 [build-system]
